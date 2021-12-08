@@ -1,4 +1,4 @@
-Attribute VB_Name = "MÛdulo3"
+Attribute VB_Name = "M√≥dulo3"
 Sub enviaremail()
 Dim ultima_feeder As Long
 Dim ultima_cabotagem As Long
@@ -29,8 +29,8 @@ If Sheets("SulSudeste").Visible = False Then
     Sheets("SulSudeste").Visible = True
 End If
 'Caso feeder
-ThisWorkbook.Sheets("Din‚mica").Activate
-ThisWorkbook.Sheets("Din‚mica").Range("D14").Select
+ThisWorkbook.Sheets("Din√¢mica").Activate
+ThisWorkbook.Sheets("Din√¢mica").Range("D14").Select
 Selection.ShowDetail = True
 ultima_feeder = Range("A2").End(xlDown).Row
 Range("B1:F" & ultima_feeder).Copy
@@ -45,8 +45,8 @@ ThisWorkbook.Sheets("Arquivos").Activate
 Range("A1:E1000").ClearContents
 
 'Casos cabotagem
-ThisWorkbook.Sheets("Din‚mica").Activate
-ThisWorkbook.Sheets("Din‚mica").Range("C14").Select
+ThisWorkbook.Sheets("Din√¢mica").Activate
+ThisWorkbook.Sheets("Din√¢mica").Range("C14").Select
 Selection.ShowDetail = True
 ultima_cabotagem = Range("A2").End(xlDown).Row
 Range("B1:F" & ultima_cabotagem).Copy
@@ -124,10 +124,10 @@ Application.ScreenUpdating = True
 
 
 Email.display
-Email.to = "william.junior@alianca.com.br"
-Email.cc = "SAO-PLANTAO-INTERNO@alianca.com.br"
+Email.to = "email_ficticio_email.com.br"
+Email.cc = "email_ficticio_email.com.br"
 Email.Subject = "Faturamento Pendente - Feeder"
-Email.Body = "Ol·!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?" & Chr(10) & assinatura
+Email.Body = "Ol√°!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?" & Chr(10) & assinatura
 Email.Attachments.Add (ThisWorkbook.Path & "\Feeder_pendentes.xlsx")
 HTMLBody = Signature
 
@@ -139,10 +139,10 @@ Set objeto_outlook = CreateObject("Outlook.Application")
 Set Email = objeto_outlook.createitem(0)
 Email.display
 
-Email.to = "william.junior@alianca.com.br"
-Email.cc = "SAO-PLANTAO-INTERNO@alianca.com.br"
+Email.to = "email_ficticio_email.com.br"
+Email.cc = "email_ficticio_email.com.br"
 Email.Subject = "Faturamento Pendente - Norte"
-Email.Body = "Ol·!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?"
+Email.Body = "Ol√°!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?"
 Email.Attachments.Add (ThisWorkbook.Path & "\Norte_pendentes.xlsx")
 
 Set objeto_outlook = CreateObject("Outlook.Application")
@@ -150,10 +150,10 @@ Set objeto_outlook = CreateObject("Outlook.Application")
 Set Email = objeto_outlook.createitem(0)
 Email.display
 
-Email.to = "william.junior@alianca.com.br"
-Email.cc = "SAO-PLANTAO-INTERNO@alianca.com.br"
+Email.to = "email_ficticio_email.com.br"
+Email.cc = "email_ficticio_email.com.br"
 Email.Subject = "Faturamento Pendente - Nordeste"
-Email.Body = "Ol·!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?"
+Email.Body = "Ol√°!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?"
 Email.Attachments.Add (ThisWorkbook.Path & "\Nordeste_pendentes.xlsx")
 
 Set objeto_outlook = CreateObject("Outlook.Application")
@@ -161,10 +161,10 @@ Set objeto_outlook = CreateObject("Outlook.Application")
 Set Email = objeto_outlook.createitem(0)
 Email.display
 
-Email.to = "william.junior@alianca.com.br"
-Email.cc = "SAO-PLANTAO-INTERNO@alianca.com.br"
+Email.to = "email_ficticio_email.com.br"
+Email.cc = "email_ficticio_email.com.br"
 Email.Subject = "Faturamento Pendente - Sul/Sudeste"
-Email.Body = "Ol·!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?"
+Email.Body = "Ol√°!" & Chr(10) & Chr(10) & "Poderiam por gentileza verificar os casos pendentes em anexo?"
 Email.Attachments.Add (ThisWorkbook.Path & "\Sul_Sudeste_pendentes.xlsx")
 
 
