@@ -1,14 +1,14 @@
 # Projetos_VBA
 Projetos desenvolvidos em VBA.
 
-Colocarei aqui alguns projetos em VBA desenvolvidos no meu trabalho, algumas informações estarão alteradas para não divulgar informações pertencentes a empresa.
+Colocarei aqui alguns projetos em VBA desenvolvidos no meu trabalho, algumas informações estarão alteradas para não divulgar informações pertencentes a empresa.\
 
-1° Automatização da planilha de controle de navios
-Os 4 arquivos abaixo pertencem ao mesmo projeto.
-EnviarEmail
-ExportarArquivo
-LimparBase
-RodarRelatorio
+1° Automatização da planilha de controle de navios\
+Os 4 arquivos abaixo pertencem ao mesmo projeto.\
+EnviarEmail\
+ExportarArquivo\
+LimparBase\
+RodarRelatorio\
 O projeto em questão tem como objetivo automatizar o controle de navios feito pela equipe em que trabalho, possui 4 funcionalidades.
 1° Limpar base - Apagar os dados atuais da planilha.
 2° RodarRelatorio - Depois de inserir os novos dados na planilha utilizamos a macro RodarRelatorio para atualizar nossa planilha de controle.
