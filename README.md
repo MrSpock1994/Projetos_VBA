@@ -15,5 +15,5 @@ O projeto em questão tem como objetivo automatizar o controle de navios feito p
 3° ExportarARquivo - Essa macro tem como objetivo extrair informações obtidas com a macro anterior (RodarRelatorio), e alimentar uma segunda planilha
 de controle, onde é feita a tratativa de pendências.\
 4° EnviarEmail - Essa macro tem como funcionalidade o envio automatico de email, selecionando casos pendentes de acordo com determinados filtros pré-estabelecidos.\
-Todo esse processo era feito de forma manual, onde um analista dedicava cerca de uma hora e meia por dia para executar tais tarefas. Com a implementação das macros\
+Todo esse processo era feito de forma manual, onde um analista dedicava cerca de uma hora e meia por dia para executar tais tarefas. Com a implementação das macros
 o tempo para realizar a mesma atividade foi reduzido para poucos minutos.
