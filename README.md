@@ -2,7 +2,7 @@
 
 
 This is a automation project using VBA. The idea behind this project was to save time and increase production, bellow there is a brief explanation about the project,
-i divided in 4 steps for a better understanding.\
+i divided in 4 steps for a better understanding.
 
 1° Automatização da planilha de controle de navios\
 Os 4 arquivos abaixo pertencem ao mesmo projeto.\
